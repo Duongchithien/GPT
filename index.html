@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Leaders Academy Vietnam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#070b1a;--bg2:#0e1633;--primary:#6d7cff;--secondary:#00d1c7;--text:#eaf0ff;--muted:#a8b3d1;--card:#101a3b;}
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,sans-serif;background:radial-gradient(1200px 700px at 80% -10%,#223a94 0%,transparent 60%),var(--bg);color:var(--text)}
+    .container{max-width:1120px;margin:auto;padding:0 20px}
+    header{position:sticky;top:0;background:rgba(7,11,26,.7);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,.08);z-index:20}
+    nav{display:flex;justify-content:space-between;align-items:center;padding:14px 0}
+    .logo{font-weight:800;letter-spacing:.4px}.logo span{color:var(--secondary)}
+    .menu a{color:var(--muted);text-decoration:none;margin-left:20px;font-size:14px}
+    .hero{padding:90px 0 60px;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+    h1{font-size:52px;line-height:1.05;margin:0 0 16px}
+    p{color:var(--muted);line-height:1.7}
+    .pill{display:inline-block;background:rgba(109,124,255,.18);border:1px solid rgba(109,124,255,.45);padding:8px 12px;border-radius:999px;font-size:13px;margin-bottom:16px}
+    .cta{display:flex;gap:14px;margin-top:24px}.btn{padding:12px 18px;border-radius:10px;font-weight:600;text-decoration:none}
+    .btn-primary{background:linear-gradient(90deg,var(--primary),#8f64ff);color:#fff}.btn-secondary{border:1px solid rgba(255,255,255,.2);color:#fff}
+    .card{background:linear-gradient(180deg,#132154,#0c1535);border:1px solid rgba(255,255,255,.12);padding:22px;border-radius:16px}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}.stat{text-align:center;padding:18px;border-radius:12px;background:rgba(255,255,255,.04)}
+    h2{font-size:32px;margin:0 0 18px}
+    section{padding:52px 0;border-top:1px solid rgba(255,255,255,.06)}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .feature h3{margin:4px 0 8px;font-size:18px}
+    .audience{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .price{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+    .price .big{font-size:34px;font-weight:800}
+    footer{padding:30px 0 60px;color:var(--muted);font-size:14px}
+    @media (max-width:900px){.hero,.grid-3,.audience,.price{grid-template-columns:1fr}.menu{display:none} h1{font-size:38px}}
+  </style>
+</head>
+<body>
+<header><div class="container"><nav><div class="logo">AI Leaders <span>Vietnam</span></div><div class="menu"><a href="#about">Giới thiệu</a><a href="#features">Tính năng</a><a href="#pricing">Gói hội viên</a><a href="#faq">FAQ</a></div></nav></div></header>
+<main class="container">
+  <section class="hero" id="about">
+    <div>
+      <div class="pill">🎯 Phiên bản clone theo định hướng AI Leaders Vietnam</div>
+      <h1>Kho học liệu AI thực chiến cho nhà quản lý & đội ngũ doanh nghiệp</h1>
+      <p>Thiết kế dựa trên cấu trúc nội dung của CES Academy, đồng thời áp dụng visual style hiện đại, công nghệ và chuyên nghiệp phù hợp định vị thương hiệu AI Leaders Vietnam.</p>
+      <div class="cta"><a class="btn btn-primary" href="#pricing">Trở thành hội viên</a><a class="btn btn-secondary" href="#features">Khám phá học liệu</a></div>
+    </div>
+    <div class="card">
+      <h3>📚 Học nhanh · Làm bài bản · Ứng dụng hiệu quả</h3>
+      <p>Framework rõ ràng, checklist chi tiết, template dùng ngay — cập nhật liên tục theo bối cảnh AI mới.</p>
+      <div class="stats">
+        <div class="stat"><div class="big">50+</div><small>Tài liệu</small></div>
+        <div class="stat"><div class="big">1,200+</div><small>Hội viên</small></div>
+        <div class="stat"><div class="big">24/7</div><small>Truy cập</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <h2>Vì sao người học chọn nền tảng này</h2>
+    <div class="grid-3">
+      <article class="card feature"><h3>🧩 Hệ thống hóa nội dung</h3><p>Tài nguyên đóng gói theo chủ đề, giảm thời gian tự tổng hợp từ nhiều nguồn rời rạc.</p></article>
+      <article class="card feature"><h3>⚙️ Tập trung khả năng áp dụng</h3><p>Mỗi học liệu đều đi cùng framework và mẫu triển khai giúp bạn ứng dụng ngay vào công việc.</p></article>
+      <article class="card feature"><h3>🔄 Cập nhật liên tục</h3><p>Thư viện được mở rộng định kỳ để bám sát thực tế vận hành AI trong doanh nghiệp.</p></article>
+    </div>
+  </section>
+
+  <section>
+    <h2>Đối tượng phù hợp</h2>
+    <div class="audience">
+      <div class="card">💼 Người đi làm muốn tăng năng suất với AI.</div>
+      <div class="card">📊 Nhà quản lý cần chuẩn hóa quy trình đội ngũ.</div>
+      <div class="card">🏢 Doanh nghiệp triển khai năng lực AI thực chiến.</div>
+      <div class="card">🤖 Người quan tâm chuyển đổi số và công cụ AI.</div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>Gói hội viên</h2>
+    <div class="price">
+      <div class="card"><h3>Starter</h3><p class="big">1.990.000đ/năm</p><p>Truy cập thư viện nền tảng, tài liệu cập nhật định kỳ, hỗ trợ email.</p></div>
+      <div class="card"><h3>Pro</h3><p class="big">3.990.000đ/năm</p><p>Toàn bộ học liệu + template nâng cao + ưu tiên cập nhật tài nguyên mới.</p></div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2>Câu hỏi thường gặp</h2>
+    <div class="card"><p><strong>Q:</strong> Có tải tài liệu về được không?<br><strong>A:</strong> Có, theo quyền lợi từng gói hội viên.</p><p><strong>Q:</strong> Có hoàn tiền không?<br><strong>A:</strong> Hoàn tiền trong 7 ngày đầu nếu không phù hợp.</p></div>
+  </section>
+</main>
+<footer class="container">© 2026 AI Leaders Vietnam Academy Clone Concept.</footer>
+</body>
+</html>
